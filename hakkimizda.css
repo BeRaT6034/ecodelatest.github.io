@@ -76,6 +76,29 @@
     font-style: italic !important;
 
 }
+
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 45.5%;
+    text-decoration: none !important;
+}
+.a3:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
 .mBack{
     background-color: rgba(0, 0, 0, 0.507);
     width: 95%;
@@ -112,18 +135,25 @@
         width: 70%;
 
     }
+    .a3{
+        top: 3%;
+        font-size: 15px;
+        left: 28.5%;
+
+    }
     .a2{
         top: 3%;
         font-size: 15px;
-        left: 45%;
+        left: 55% !important;
 
     }
 
     .a1{
         top: 3%;
         font-size: 15px;
-        left: 10%;
+        left: 7% !important;
     }
+    
 }
 
 @media screen and (max-width: 430px){
@@ -147,16 +177,22 @@
         width: 70%;
 
     }
+    .a3{
+        top: 3%;
+        font-size: 15px;
+        left: 28.5%;
+
+    }
     .a2{
         top: 3%;
         font-size: 15px;
-        left: 45%;
+        left: 55% !important;
 
     }
 
     .a1{
         top: 3%;
         font-size: 15px;
-        left: 10%;
+        left: 7% !important;
     }
 }

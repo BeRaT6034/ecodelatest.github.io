@@ -69,7 +69,7 @@
     padding: 1% !important;
     border-radius: 15px !important;
     font-size: 20px;
-    left: 42%;
+    left: 48%;
     text-decoration: none !important;
 }
 .a2:hover{
@@ -90,7 +90,7 @@
     padding: 1% !important;
     border-radius: 15px !important;
     font-size: 20px;
-    left: 77%;
+    left: 68%;
     text-decoration: none !important;
 }
 .a3:hover{
@@ -115,6 +115,28 @@
     text-decoration: none !important;
 }
 .a4:hover{
+    font-style: italic !important;
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    
+
+}
+.a5{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 32%;
+    text-decoration: none !important;
+}
+.a5:hover{
     font-style: italic !important;
     background-color: green !important;
     transition: 480ms;
@@ -200,7 +222,7 @@
         top: 2%;
         border-radius: 15px;
         font-size: 10px;
-        left: 32%;
+        left: 45% !important;
     }
     .a2:hover{
 
@@ -215,7 +237,7 @@
         top: 2%;
         border-radius: 15px;
         font-size: 10px;
-        left: 72%;
+        left: 78% !important;
     }
     .a3:hover{
 
@@ -225,13 +247,15 @@
         font-style: italic;
     
     }
-    .a4{
-        position:absolute;
-        top: 205%;
-        font-size: 20px;
-        left: 38%;
-    
+
+    .a5{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 23%;
     }
+
     .a4{
         color: white !important;
         font-style: normal !important;
@@ -245,6 +269,7 @@
         left: 62%;
         text-decoration: none !important;
     }
+
 }
 
 @media screen and (max-width: 430px){
@@ -309,22 +334,51 @@
         top: 2%;
         border-radius: 15px;
         font-size: 10px;
-        left: 32%;
+        left: 45% !important;
     }
+    .a2:hover{
 
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
     .a3{
         position: absolute;
         top: 2%;
         border-radius: 15px;
         font-size: 10px;
-        left: 72%;
+        left: 78% !important;
+    }
+    .a3:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+
+    .a5{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 23%;
     }
 
     .a4{
-        position:absolute;
-        top: 205%;
+        color: white !important;
+        font-style: normal !important;
+        position: absolute;
+        top: 58%;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        border-radius: 15px !important;
         font-size: 20px;
-        left: 38%;
-    
+        left: 62%;
+        text-decoration: none !important;
     }
 }

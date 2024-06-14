@@ -1,72 +1,28 @@
-.govde{
+.b{
     margin: 8% !important;
     background-color: rgba(0, 0, 0, 0.226) !important;
     background-image: url(bg2.png);
-    background-size: cover;
 }
 
-.urun1{
-    width: 22% !important;
-    margin: 5% !important;
-    margin-top: 0 !important;
-
+.dp1{
+    scale: 90%;
+    position: absolute;
+    left: 1%;
 }
-.urun1:hover{
 
-    transition: 480ms !important;
-    transform: scale(1.1) !important;
-    border:5px solid black !important;
-    border-radius: 10px !important;
-    border-style: dotted !important;
+.sbGuvenlikBilgi{
     
-}
-
-
-.urun2{
-    width: 22% !important;
-    margin: 5% !important;
-    margin-top: 0 !important;
-
-}
-.urun2:hover{
-
-    transition: 480ms !important;
-    transform: scale(1.1) !important;
-    border:5px solid black !important;
-    border-radius: 10px !important;
-    border-style: dotted !important;
-
-}
-
-.urun3{
-    width: 22% !important;
-    margin: 5% !important;
-    margin-top: 0 !important;
-
-}
-.urun3:hover{
-
-    transition: 480ms !important;
-    transform: scale(1.1) !important;
-    border:5px solid black !important;
-    border-radius: 10px !important;
-    border-style: dotted !important;
-
-}
-.p1{
-    background-color: rgba(0, 0, 255, 0.904) !important;
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
     padding: 1% !important;
-    border-radius: 15px !important;
-    font-family: 'Roboto Mono', monospace !important;
-    font-size: 20px !important;
-    color: black !important;
+    position: absolute;
+    left: 55%;
+    margin-right: 2% !important;
+    margin-bottom: 0 !important;
+    top: 35%;
+    font-size: 25px;
     
-}
-.p1:hover{
-    font-style:italic !important;
-    transition: 480ms !important;
-    transform: scale(1.03) !important;
-    background-color: rgba(255, 0, 0, 0.705) !important;
 }
 .a1{
     color: white !important;
@@ -100,7 +56,7 @@
     padding: 1%;
     border-radius: 15px !important;
     font-size: 20px;
-    left: 65.5%;
+    left: 46.5%;
     text-decoration: none !important;
 }
 .a2:hover{
@@ -122,7 +78,7 @@
     padding: 1%;
     border-radius: 15px !important;
     font-size: 20px;
-    left: 45.5%;
+    left: 65.5%;
     text-decoration: none !important;
 }
 .a3:hover{
@@ -151,35 +107,11 @@
 
 
 @media screen and (max-width: 425px) {
-    .govde{
+    .b{
         background-image:none;
         background-color:rgba(0, 0, 0, 0.263);
     }
-    .urun1{
-        position: absolute;
-        top: 35%;
-        scale: 300%;
-        left: 33%;
-    }
-    .urun2{
-        position: absolute;
-        top: 85%;
-        scale: 300%;
-        left: 33%;
-    }
-
-    .urun3{
-        position: absolute;
-        top: 135%;
-        scale: 300%;
-        left: 33%;
-        margin-bottom: 3%;
-    }
-    .urun1:hover{
-
-        transition: 480ms;
-
-    }
+    
     .a1{
         text-align: center;
         color: white;
@@ -204,55 +136,37 @@
         padding: 1%;
         border-radius: 18px;
         font-size: 15px ;
-        left: 73%;
+        left: 65%;
         text-decoration: none;
-        
     }
-    .a3{
-        color: white ;
-        font-style: normal ;
-        position: absolute ;
-        top: 3%;
-        font-family: 'Roboto Mono', monospace ;
-        background-color: #FCA311 ;
-        padding: 1%;
-        border-radius: 18px;
-        font-size: 15px ;
-        left: 45.5%;
-        text-decoration: none;
+    .dp1{
+        scale: 45% !important;
+        position: absolute;
+        left: -56% !important;
+        top: -3%;
+    }
+    .sbGuvenlikBilgi{
+    
+        color: white !important;
+        font-family:'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        position: absolute;
+        left: 4%;
+        right: 2%;
+        margin-right: 2% !important;
+        margin-bottom: 0 !important;
+        top: 50%;
+        font-size: 25px;
         
     }
 }
 
 @media screen and (max-width: 430px) {
-    .govde{
-        background-image:none;
-        background-color:rgba(0, 0, 0, 0.263);
-    }
-    .urun1{
-        position: absolute;
-        top: 45%;
-        scale: 300%;
-        left: 33%;
-    }
-    .urun2{
-        position: absolute;
-        top: 115%;
-        scale: 300%;
-        left: 33%;
-    }
-
-    .urun3{
-        position: absolute;
-        top: 200%;
-        scale: 300%;
-        left: 33%;
-        margin-bottom: 3%;
-    }
-    .urun1:hover{
-
-        transition: 480ms;
-
+    .b{
+        margin: 8% !important;
+        background-color: rgba(0, 0, 0, 0.226) !important;
+        background-image: none;
     }
     .a1{
         text-align: center;
@@ -280,20 +194,41 @@
         font-size: 15px ;
         left: 73%;
         text-decoration: none;
-        
     }
     .a3{
-        color: white ;
-        font-style: normal ;
-        position: absolute ;
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
         top: 3%;
-        font-family: 'Roboto Mono', monospace ;
-        background-color: #FCA311 ;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
         padding: 1%;
-        border-radius: 18px;
-        font-size: 15px ;
-        left: 45.5%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 49%;
         text-decoration: none;
+    }
+    .dp1{
+        scale: 45% ;
+        position: absolute;
+        left: -55% ;
+        top: -3%;
+    }
+    .sbGuvenlikBilgi{
+    
+        color: white !important;
+        font-family:'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        position: absolute;
+        left: 4%;
+        right: 2%;
+        margin-right: 2% !important;
+        margin-bottom: 0 !important;
+        top: 50%;
+        font-size: 25px;
         
     }
+
 }
