@@ -382,3 +382,19 @@
         text-decoration: none !important;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .a4{
+        color: white !important;
+        font-style: normal !important;
+        position: absolute;
+        top: 160%;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        border-radius: 15px !important;
+        font-size: 20px;
+        left: 38%;
+        text-decoration: none !important;
+    }
+}

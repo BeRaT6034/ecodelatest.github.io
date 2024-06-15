@@ -196,3 +196,25 @@
         left: 7% !important;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .a3{
+        top: 3%;
+        font-size: 10px;
+        left: 33%;
+
+    }
+    .a2{
+        top: 3%;
+        font-size: 10px;
+        left: 64% !important;
+
+    }
+
+    .a1{
+        top: 3%;
+        font-size: 10px;
+        left: 7% !important;
+    }
+    
+}

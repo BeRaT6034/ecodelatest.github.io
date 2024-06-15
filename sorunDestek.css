@@ -146,3 +146,21 @@
         top: 25%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .a1{
+        top: 3%;
+        font-size: 15px;
+        left: 5% !important;
+    }
+    .a2{
+        top: 3%;
+        font-size: 15px;
+        left: 70% !important;
+    }
+    .a3{
+        top: 3%;
+        font-size: 15px;
+        left: 35% !important;
+    }
+}

@@ -297,3 +297,48 @@
         
     }
 }
+
+@media screen and (max-width: 375px) {
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 10px ;
+        left: 73%;
+        text-decoration: none;
+        
+    }
+    .a3{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 10px ;
+        left: 44%;
+        text-decoration: none;
+        
+    }
+}
